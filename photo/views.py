@@ -89,3 +89,7 @@ class CategoryCreateView(CreateView):
     form_class = CategoryForm
     template_name = "category_create.html"
     success_url = reverse_lazy('photo:post_done')
+
+
+def hoge():
+    return hoge
